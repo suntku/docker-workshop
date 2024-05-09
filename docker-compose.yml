@@ -4,4 +4,4 @@ services:
       context: .
     image: ${MY_IMAGE_NAME:-api-node}:1.0
     ports:
-      - "3000:3000"
+      - "6789:3000"
