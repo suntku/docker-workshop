@@ -1,0 +1,7 @@
+services:
+  pm2:
+    build:
+      context: .
+    image: ${MY_IMAGE_NAME:-api-node}:1.0
+    ports:
+      - "3000:3000"
